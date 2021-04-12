@@ -11,6 +11,7 @@ Run the strapi application
 
 ```bash
 cd strapi-todo-api
+yarn install
 yarn develop
 # http://localhost:1337/admin
 ```
@@ -20,6 +21,7 @@ Open a new terminal by pressing `Ctrl + T` or `Command + T` and run the nuxt app
 ```bash
 cd ..
 cd nuxt-todo
+yarn install
 yarn dev
 # http://localhost:3000
 ```
